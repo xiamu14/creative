@@ -4,49 +4,12 @@
 ## 1. 数据适配器工具
 根据映射表规则自动将数据转换为另一种格式，用于前后端数据对接
 
-## 2. 网页 css 自动生成工具
-
-### 方案
-atomic design
-原子化设计，原子化 css
-
-## 3. Mac 自动化实践
-
-### 方案1
-从 youtube 下载视频，并添加字幕，然后上传到 bilibili
-
-### 方案2
-早上7点自动收听新闻
-
-## 4. side project 交易平台
-允许开发者上传自己的 side project 并制定价格，参考 [1k projects](https://1kprojects.com/?ref=producthunt)
-
-### 方案1
-制定通用商店购物平台，交流议价平台。
-
-- 问题
-    1. 如何避免买卖双方跳过平台私下交易？
-    平台应该抓开发者的体验，始终让开发者与平台站在同一方，让开发者理解平台才能够使 side project 的价值最大化
-    2. 如何让程序员的 side project 具有销售的价值？
-
-## 5. 自定义命令的命令行工具
-
-### 方案1
-
-使用 node.js 制作一个可以自定义命令的工具。内置部分常用命令，组合命令；比如：自动生成包含编程范式说明注释以及代码组件架构注释文件的的 react 模板文件、vue 模板文件的命令；可以一行命令实现修改 git branch name 的组合命令: git branch -m 1.2.2-dev 1.2.3-dev && git push --delete origin 1.2.2-dev && git push origin 1.2.3-dev && git branch --set-upstream-to origin/1.2.3-dev
-
-## 6. 网页应用数据、状态保存方案
-
-### 方案1
-直接看下 web IDE 是怎么做的就好了啊！重点是如何结合动画来做到更好的体验，以及如何更简单的使用这种数据、状态保存方案。(参考 FB 的 pwa)
-
-### 方案2
-好像这是 mobx ，storage，index db 结合的工具
+已发布一个alpha 版本 data-matcher
 
 ## 7. 建立一个设计师和程序员协作完成精美的 UI/UX 实验参考代码并出售全部代码及创意的网站(4 的升级版)
 
 ### step1
-自己先做，完全大量设计稿的实现代码(至少 50+)
+自己先做，完成大量设计稿的实现代码(至少 50+)
 
 ### step2
 建立展示站点(以国外目标用户为导向？)
@@ -56,4 +19,15 @@ atomic design
 
 ### step4
 建立设计师、开发线上交流沟通协作方式(可以考虑直接引入 slack 这样的工具)
+
+## 一朝
+
+制作中
+
+## cs
+
+简化 css 语法，将相关联的属性集合到一个 mixin 属性中，依靠参数顺序关联。减少编写大量重复的 css 属性名。
+实际使用比如： position: relative 12px ...;
+
+alpha 思考解决方案中(comporessed-biscuit)
 
